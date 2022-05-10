@@ -1,0 +1,20 @@
+.todo-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+  &__todo {
+    display: flex;
+  }
+  &__title {
+    padding: 10px;
+    border: 1px solid #797777;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  &__no-completed-item {
+    background-color: rgb(143, 143, 143);
+    color: white;
+  }
+}
