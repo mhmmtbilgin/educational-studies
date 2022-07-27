@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div id="homepage">
     <TextingBox :data-list="todoList" />
   </div>
 </template>
 <script>
 import { mapActions, mapGetters } from "vuex";
-import TextingBox from "@/components/TextingBox";
+import TextingBox from "../components/TextingBox";
 export default {
   name: "Homepage",
   components: {
