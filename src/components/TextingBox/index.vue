@@ -27,5 +27,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import "./style.scss";
+@import "./index.module.scss";
 </style>
